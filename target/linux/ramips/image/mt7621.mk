@@ -975,7 +975,7 @@ define Device/jcg_q20
 	check-size
   DEVICE_VENDOR := JCG
   DEVICE_MODEL := Q20
-  DEVICE_PACKAGES += luci-app-mtwifi uboot-envtools
+  DEVICE_PACKAGES := luci-app-mtwifi uboot-envtools
 endef
 TARGET_DEVICES += jcg_q20
 
